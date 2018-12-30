@@ -18,7 +18,8 @@ export class HomePageComponent implements OnInit {
   private async sleep() {
     console.log("Trenutno: " + new Date().toString());
     // Sleep thread for 3 seconds
-    await this.delay(3000);
+    await this.delay(2000); 
+    alert("Nakon dvije sekunde " + new Date().toString());
     console.log("Nakon pet sekundi " + new Date().toString());
   }
 }
