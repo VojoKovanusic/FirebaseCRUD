@@ -42,6 +42,9 @@
     <input type="submit" class="btn btn-primary" value="submit">
     </div> 
 </form>
+<div class="alert alert-info" *ngIf="showSucesssMesage">
+  Submitted succesfully!
+</div>
 </div>
 <div class="col-md-7">
   <app-customer-list></app-customer-list>
